@@ -20,15 +20,9 @@ Once started up, you can access the playground here:
 Copy and paste the above query to try it out:
 
 ```graphql
-query {
-  business(id: "biz#2") {
-    id
-    name
-    rating
-    reviews {
-      author
-      text
-    }
+{
+  helloWorld(barOrBaz: "baz") {
+    qux
   }
 }
 ```
